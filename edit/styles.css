@@ -1,0 +1,65 @@
+.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #e9ecef;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.editor-container {
+    max-width: 1000px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.editor-output {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+textarea {
+    width: 48%;
+    height: 400px;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+iframe {
+    width: 48%;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
+}

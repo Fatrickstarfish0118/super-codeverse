@@ -1,0 +1,68 @@
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+#posts {
+    margin-bottom: 30px;
+}
+
+.post {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reply {
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 4px solid #007acc;
+}
+
+#newPost {
+    background: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #007acc;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005f99;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Community Chat</title>
+    <link rel="stylesheet" href="commu/kumu.css">
+</head>
+<body>
+    <!-- Login Section -->
+    <div id="loginSection">
+        <h2>Student Login</h2>
+        <input type="text" id="usernameInput" placeholder="Enter your username">
+        <button onclick="login()">Login</button>
+    </div>
+
+    <!-- Chatroom Section -->
+    <div id="chatSection" style="display:none;">
+        <h2>Welcome, <span id="userDisplay"></span>!</h2>
+        <div id="chatBox">
+            <!-- Messages will be displayed here -->
+        </div>
+        <input type="text" id="messageInput" placeholder="Enter your message">
+        <button onclick="sendMessage()">Send</button>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script src="commu/kumu.js"></script>
+</body>
+</html>

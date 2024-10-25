@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeverse Feedback Form</title>
+    <link rel="stylesheet" href="fd/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Feedback Form for Codeverse</h2>
+        <form id="feedbackForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="feedbackList"></div>
+    </div>
+
+    <script src="fd/FEED.js"></script>
+</body>
+</html>

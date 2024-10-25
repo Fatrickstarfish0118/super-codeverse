@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login/Register</title>
+    <link rel="stylesheet" href="login/login.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="login-section">
+            <h2>Student Login</h2>
+            <form id="login-form">
+                <div class="input-group">
+                    <label for="login-username">Username:</label>
+                    <input type="text" id="login-username" required>
+                </div>
+                <div class="input-group">
+                    <label for="login-password">Password:</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <p id="login-message"></p>
+            <p class="toggle-link">Don't have an account? <a href="#" id="show-register">Register</a></p>
+        </div>
+
+        <div class="register-section hidden">
+            <h2>Student Registration</h2>
+            <form id="register-form">
+                <div class="input-group">
+                    <label for="register-username">Username:</label>
+                    <input type="text" id="register-username" required>
+                </div>
+                <div class="input-group">
+                    <label for="register-password">Password:</label>
+                    <input type="password" id="register-password" required>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+            <p id="register-message"></p>
+            <p class="toggle-link">Already have an account? <a href="#" id="show-login">Login</a></p>
+        </div>
+    </div>
+
+    <script src="login/login.js"></script>
+</body>
+</html>
